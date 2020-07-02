@@ -17,6 +17,12 @@ body{
     background-color: cadetblue;
 }
 
+body>div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h2{
     font-size:1em;
 }
@@ -46,6 +52,7 @@ button:hover{
 #container{
     margin-top: 5vh;
     border: 2px solid black;
+    width: fit-content;
 }
 
 #container>div:first-child{
@@ -54,10 +61,16 @@ button:hover{
     align-items: center;
     font-size: 2em;
     position: relative;
-    padding: 2px;
+    padding: 5px;
     background-color: rgb(0, 0, 0);
     color: white;
     height: 100%;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #score-rabbit{
@@ -68,13 +81,34 @@ button:hover{
 
 #score{
     display: inline-block;
+    margin-left: 5px;
+}
+
+.touch-rabbit{
+    border-radius: 100%;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.touch-rabbit2{
+    border-radius: 100%;
+    cursor: pointer;
+    border: 2px solid red;
+    animation: blink 2s linear infinite;
+}
+
+@keyframes blink{
+    0%{
+        background-color: black;
+    }
+    100%{
+        background-color: red;
+    }
 }
 
 #grid{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     border-top: 2px solid black;
 }
 
