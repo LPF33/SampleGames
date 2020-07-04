@@ -1,6 +1,8 @@
 # Games for fun!
 
 Some of my browsergames, which I can show public!
+## Play them: 
+https://larspefe.herokuapp.com/Games
 
 ## Description:
 When I started to learn JavaScript, I got really passionated about Game Development,
