@@ -4,7 +4,7 @@ Some of my JavaScript-Browsergames! Oh what a fun!
 
 ## Play them:
 
-https://larspefe.herokuapp.com/Games
+https://larspefegames.herokuapp.com/
 
 ## Description:
 
